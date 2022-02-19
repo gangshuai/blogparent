@@ -22,8 +22,8 @@ public class ArticleController {
     public Result hot(){
         int limit = 5;
         int a = 8;
+        int b = 9;
         return articleService.hotArticles(limit);
-
     }
 
 }
