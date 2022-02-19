@@ -21,7 +21,7 @@ public class ArticleController {
     @PostMapping("hot")
     public Result hot(){
         int limit = 5;
-
+        int a = 7;
         return articleService.hotArticles(limit);
     }
 
